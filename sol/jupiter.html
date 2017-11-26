@@ -5,8 +5,8 @@
   </head>
   <body>
     <a-scene style="background-color: #000; background-image: url('2k_stars.jpg'); background-position: center; background-repeat: no-repeat;">
-      <a-camera position="100 0 0" rotation="0 90 0"></a-camera>
-      <a-entity geometry="primitive: sphere; radius: 30; segmentsHeight: 100; segmentsWidth: 100;" material="src: jupiter.jpg; shader: flat;">
+      <a-camera position="0 0 0" rotation="0 0 0"></a-camera>
+      <a-entity position="0 0 -200" geometry="primitive: sphere; radius: 30; segmentsHeight: 100; segmentsWidth: 100;" material="src: jupiter.jpg; shader: flat;">
         <a-animation attribute="rotation" dur="30000" from="0 0 0" to="0 360 0" repeat="infinite" easing="linear"></a-animation>
       </a-entity>
     </a-scene>
