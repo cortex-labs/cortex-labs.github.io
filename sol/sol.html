@@ -1,0 +1,14 @@
+<html>
+  <head>
+    <title>sol</title>
+    <script src="https://aframe.io/releases/0.7.0/aframe.min.js"></script>
+    <script src="https://wizgrav.github.io/aframe-effects/dist/aframe-effects.min.js"></script>
+  </head>
+  <body>
+    <a-scene effects="bloom, fxaa" fxaa>
+      <a-camera position="200 0 0" rotation="0 90 0"></a-camera>
+      <a-entity bloom="strength: 1.6; radius: 0.3;" geometry="primitive: sphere; radius: 30; segmentsHeight: 100; segmentsWidth: 100;" material="shader: flat;"></a-entity>
+      <a-sky src="2k_stars.jpg"></a-sky>
+    </a-scene>
+  </body>
+</html>
